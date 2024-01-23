@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey's</title>
+   <!-- daisy ui and tailwind css -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  <!-- tailwind custom config -->
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+    
+          }
+        }
+      }
+    }
+    </script>
+  <!-- google font manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/fe95cfdf25.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <!-- navbar section -->
+        <section>
+          <div class="navbar gap-3 container mx-auto bg-white p-4 mt-8">
+            <div class="navbar-start items-center">
+             <div class="flex gap-1.5">
+              
+              <div class="dropdown visible md:invisible lg:invisible">
+                <div tabindex="0" role="button" class="btn btn-spuare">
+                  <i class="fa-solid fa-bars"></i>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a class="text-[#FF4240]">Home</a></li>
+                  <li><a>About</a></li>
+                  <li><a>Pages</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact</a></li>
+                </ul>
+              </div>
+              <h2 class="text-center text-[#131318] items-center text-3xl font-bold ml-4" >Hockey<span class="text-[#FF4240]">’</span>s</h2>
+             </div>
+            </div>
+            <div class="navbar-center invisible md:visible lg:visible">
+              <a class="text-[#FF4240] p-3">Home</a>
+              <a class="p-3">About</a>
+              <a class="p-3">Pages</a>
+              <a class="p-3">Blog</a>
+              <a class="p-3">Contact</a>
+            </div>
+            <div class="navbar-end gap-3">
+              <button class="btn btn-spuare invisible md:visible lg:visible ">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+              <button class="btn btn-square bg-[#FF4240] w-24">
+                Get Ticket
+              </button>
+            </div>
+          </div>
+        </section>
+        <!-- hero section  -->
+        
+    </header>
+</body>
+</html>
